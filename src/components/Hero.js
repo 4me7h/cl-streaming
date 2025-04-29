@@ -40,10 +40,10 @@ const Hero = () => {
                         <div ref={ref} className="hero__content">
                             <div className='hero__content__header'>
                                 <Zoom triggerOnce cascade>
-                                    <h1 className="text--title text-white">5204 Bedford Ave<br /> <span className="text--price">$2,125,000</span>
+                                    <h1 className="text--title text-white">Streaming<br /> <span className="text--price">KLS</span>
                                     </h1>
-                                    <h4 className="text--lead text-white mb-5">Los Angeles CA 90056</h4>
-                                    <a className="btn btn--primary" target="__blank" href="https://wa.me/+13106334350?text=Hi,%20I'm%20interested%20in%20the%20property%20at%205207%20Sale%20Ave,%20Woodland%20Hills.%20Can%20you%20share%20more%20details%20or%20schedule%20a%20viewing?">Call now to schedule a viewing</a>
+                                    {/* <h4 className="text--lead text-white mb-5">Los Angeles CA 90056</h4>
+                                    <a className="btn btn--primary" target="__blank" href="https://wa.me/+13106334350?text=Hi,%20I'm%20interested%20in%20the%20property%20at%205207%20Sale%20Ave,%20Woodland%20Hills.%20Can%20you%20share%20more%20details%20or%20schedule%20a%20viewing?">Call now to schedule a viewing</a> */}
 
                                     <div className="slider-controls">
                                     {backgrounds.map((_, index) => (
