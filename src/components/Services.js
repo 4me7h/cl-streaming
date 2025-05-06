@@ -3,9 +3,9 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-import icon01 from '../images/icon-01.png';
-import icon02 from '../images/icon-02.png';
-import icon03 from '../images/icon-03.png';
+// import icon01 from '../images/icon-01.png';
+// import icon02 from '../images/icon-02.png';
+// import icon03 from '../images/icon-03.png';
 
 import { Fade } from 'react-awesome-reveal';
 
@@ -49,7 +49,7 @@ export default function Services() {
                 <ul className="boxes">
                   <li className="boxes__item">
                     <div className="boxes__icon">
-                      <img src={icon01} alt="icon-01" className="boxes__img"/>
+                      {/* <img src={icon01} alt="icon-01" className="boxes__img"/> */}
                       {/* <FaBullhorn size={75}/> */}
                     </div>
                     <h4 className="text--lead boxes__title">We Launch Targeted Ads:</h4>
@@ -57,7 +57,7 @@ export default function Services() {
                   </li>
                   <li className="boxes__item">
                     <div className="boxes__icon">
-                      <img src={icon02} alt="icon-01" className="boxes__img"/>
+                      {/* <img src={icon02} alt="icon-01" className="boxes__img"/> */}
                       {/* <FaFilter size={75}/> */}
                     </div>
                     <h4 className="text--lead boxes__title">AI Qualifies Leads:</h4>
@@ -65,7 +65,7 @@ export default function Services() {
                   </li>
                   <li className="boxes__item">
                     <div className="boxes__icon">
-                      <img src={icon03} alt="icon-01" className="boxes__img"/>
+                      {/* <img src={icon03} alt="icon-01" className="boxes__img"/> */}
                       {/* <FaTrophy size={75}/> */}
                     </div>
                     <h4 className="text--lead boxes__title">You Close Deals:</h4>
