@@ -21,13 +21,29 @@
             background-color: $color-secondary;
             text-transform: uppercase;
             letter-spacing: 0.1rem;
-            font-weight: $fw-7;
+            font-weight: $fw-5;
             border-radius: 0;
             padding: 0.5rem 2.4rem;
         }
         @include hover {
             color: $color-white !important;
             background-color: darken($color-secondary, 5%) !important;
+        }
+    }
+
+    &--tertiary {
+        @include link {
+            color: $color-black;
+            background-color: $color-tertiary;
+            text-transform: uppercase;
+            letter-spacing: 0.1rem;
+            font-weight: $fw-5;
+            border-radius: 0;
+            padding: 0.5rem 2.4rem;
+        }
+        @include hover {
+            color: $color-black !important;
+            background-color: darken($color-tertiary, 5%) !important;
         }
     }
     &--face {

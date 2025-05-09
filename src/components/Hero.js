@@ -7,12 +7,12 @@ import { useParallax } from 'react-scroll-parallax';
 import { useState, useEffect } from 'react';
 
 import imgBackground01 from '../images/img-01.jpg';
-import imgBackground02 from '../images/img-02.jpg';
-import imgBackground03 from '../images/img-03.jpg';
-import imgBackground04 from '../images/img-04.jpg';
-import imgBackground05 from '../images/img-05.jpg';
-import imgBackground06 from '../images/img-06.jpg';
-import imgBackground07 from '../images/img-07.jpg';
+import imgBackground02 from '../images/img-19.jpg';
+import imgBackground03 from '../images/img-14.jpg';
+import imgBackground04 from '../images/img-10.jpg';
+import imgBackground05 from '../images/img-18.jpg';
+import imgBackground06 from '../images/img-20.jpg';
+import imgBackground07 from '../images/img-17.jpg';
 
 const Hero = () => {
     const [currentSlide, setCurrentSlide] = useState(0);
@@ -40,10 +40,16 @@ const Hero = () => {
                         <div ref={ref} className="hero__content">
                             <div className='hero__content__header'>
                                 <Zoom triggerOnce cascade>
-                                    <h1 className="text--title text-white">Streaming<br /> <span className="text--price">KLS</span>
+                                    <h4 className="text--lead text-white"><span className="">Desde $250 MXN al Mes</span></h4>
+                                    <h1 className="text--title text-white">Disfruta de Kaelus TV al mejor precio
                                     </h1>
-                                    {/* <h4 className="text--lead text-white mb-5">Los Angeles CA 90056</h4>
-                                    <a className="btn btn--primary" target="__blank" href="https://wa.me/+13106334350?text=Hi,%20I'm%20interested%20in%20the%20property%20at%205207%20Sale%20Ave,%20Woodland%20Hills.%20Can%20you%20share%20more%20details%20or%20schedule%20a%20viewing?">Call now to schedule a viewing</a> */}
+                                    <h4 className="text--lead text-white">TV en vivo, películas, series y deportes ¡Sin cortes y en HD!</h4>
+                                    <ul className="hero__list">
+                                        <li className="hero__list__item">+5,000 canales y VOD siempre actualizado</li>
+                                        <li className="hero__list__item">Compatible con cualquier dispositivo</li>
+                                        <li className="hero__list__item">Calidad HD estable y sin buffering"</li>
+                                    </ul>
+                                    <a className="btn btn--tertiary" target="__blank" href="https://wa.me/+529991292603?text=Hola,%20estoy%20interesado%20en%20el%20servicio%20de%20entretenimiento">¡Quiero mi prueba gratis!</a>
 
                                     <div className="slider-controls">
                                     {backgrounds.map((_, index) => (
@@ -54,7 +60,7 @@ const Hero = () => {
                                             aria-label={`Ir a slide ${index + 1}`}
                                         />
                                     ))}
-            </div>
+                                    </div>
                                 </Zoom>
                             </div>
                         </div>

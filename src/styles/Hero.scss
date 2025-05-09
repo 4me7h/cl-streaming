@@ -26,20 +26,26 @@
         }
         &__header {
             position: relative;   
-            text-align: center;
             padding: 4rem 0;
-            max-width: 940px;
-            margin: 0 auto;
+            max-width: 800px;
             @include media('md') {
                 padding: 10rem 0 14rem;
             }
         }
     }
-    
+    &__list {
+        @include reset-list;
+        margin-bottom: 2rem;
+        &__item {
+            color: $color-white;
+            font-size: $fs-sm;
+        }
+    }
 }
 
 //slider
 .slider-controls {
+    
     position: absolute;
     bottom: 2rem;
     left: 50%;
@@ -50,6 +56,7 @@
 }
 
 .slider-dot {
+    display: none;
     width: 12px;
     height: 12px;
     border-radius: 50%;
