@@ -40,16 +40,18 @@ const Hero = () => {
                         <div ref={ref} className="hero__content">
                             <div className='hero__content__header'>
                                 <Zoom triggerOnce cascade>
-                                    <h4 className="text--lead text-white"><span className="">Desde $250 MXN al Mes</span></h4>
+                                    <h4 className="text--lead text-white"><span className="lighted--tertiary">Desde <strong>$250 al Mes</strong> </span></h4>
                                     <h1 className="text--title text-white">Disfruta de Kaelus TV al mejor precio
                                     </h1>
-                                    <h4 className="text--lead text-white">TV en vivo, películas, series y deportes ¡Sin cortes y en HD!</h4>
+                                    <h4 className="text--lead text--quaternary">TV en vivo, películas, series y deportes ¡Sin cortes y en HD!</h4>
                                     <ul className="hero__list">
-                                        <li className="hero__list__item">+5,000 canales y VOD siempre actualizado</li>
-                                        <li className="hero__list__item">Compatible con cualquier dispositivo</li>
-                                        <li className="hero__list__item">Calidad HD estable y sin buffering"</li>
+                                        <li className="hero__list__item">&rarr; +5,000 Canales de TV y Video on Demand siempre actualizado</li>
+                                        <li className="hero__list__item">&rarr; Deportes, Series, Películas, Documentales</li>
+                                        <li className="hero__list__item">&rarr; Calidad HD estable y sin buffering</li>
+                                        <li className="hero__list__item">&rarr; Compatible con la mayoría de los dispositivos actuales</li>
+                                        <li className="hero__list__item">&rarr; Todo en Kaelus por menos de <span className="lighted--tertiary"><strong>$8 diaros</strong></span></li>
                                     </ul>
-                                    <a className="btn btn--tertiary" target="__blank" href="https://wa.me/+529991292603?text=Hola,%20estoy%20interesado%20en%20el%20servicio%20de%20entretenimiento">¡Quiero mi prueba gratis!</a>
+                                    <a className="btn btn--primary" target="__blank" href="https://wa.me/+529991292603?text=Hola,%20estoy%20interesado%20en%20el%20servicio%20de%20entretenimiento">¡Quiero mi prueba gratis!</a>
 
                                     <div className="slider-controls">
                                     {backgrounds.map((_, index) => (

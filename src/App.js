@@ -5,7 +5,7 @@ import About from './components/About';
 // import Header from './components/Header';
 import Footer from './components/Footer';
 import Contact from './components/Contact';
-import Services from './components/Services';
+// import Services from './components/Services';
 
 // import { Element } from 'react-scroll';
 import { ParallaxProvider } from 'react-scroll-parallax';
@@ -18,7 +18,7 @@ function App() {
       <Hero />
       <About />
       {/* <Schedules /> */}
-      <Services />
+      {/* <Services /> */}
       <Contact />
       <Footer />
     </>

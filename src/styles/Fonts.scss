@@ -59,11 +59,20 @@ a {
 
 span {
     &.lighted {
-        color: $color-primary;
-        font-weight: $fw-7;
-
+        &--primary {
+            color: $color-primary;
+        }
         &--secondary {
             color: $color-secondary;
+        }
+        &--tertiary {
+            color: $color-tertiary;
+        }
+        &--quaternary {
+            color: $color-quaternary;
+        }
+        &--white {
+            color: $color-white;
         }
     }
 }
@@ -156,6 +165,9 @@ span {
 
     &--tertiary {
         color: $color-tertiary;
+    }
+    &--quaternary {
+        color: $color-quaternary;
     }
 
     &--dark-primary {
