@@ -128,10 +128,10 @@ export default function About() {
                     <img className="about__partners__item__img about__partners__item__img--android" src={partners03} alt="android"/>
                   </li>
                   <li className='about__partners__item'>
-                    <img className="about__partners__item__img about__partners__item__img--fire" src={partners04} alt="fire-tv"/>
+                    <img className="about__partners__item__img about__partners__item__img--chrome" src={partners05} alt="google-chrome"/>
                   </li>
                   <li className='about__partners__item'>
-                    <img className="about__partners__item__img about__partners__item__img--chrome" src={partners05} alt="google-chrome"/>
+                    <img className="about__partners__item__img about__partners__item__img--fire" src={partners04} alt="fire-tv"/>
                   </li>
                 </ul>
                 <div className='text-center'>
