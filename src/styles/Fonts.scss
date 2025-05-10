@@ -66,7 +66,10 @@ span {
             color: $color-secondary;
         }
         &--tertiary {
-            color: $color-tertiary;
+            padding: 0.125rem 0.75rem;
+            border-radius: 0.5rem;
+            background-color: $color-tertiary;
+            color: $color-black;
         }
         &--quaternary {
             color: $color-quaternary;
