@@ -1,6 +1,6 @@
 .footer {
     &__copy {
-        background-color: $color-secondary;
+        background-color: $color-primary;
         padding: 1rem 0 1rem;
     
         &__text {
@@ -9,7 +9,7 @@
             letter-spacing: 0.125rem;
             text-transform: uppercase;
             font-size: $fs-mn;
-            color: $dark-text-secondary;
+            color: $color-white;
             font-weight: $fw-6;
         }
     }

@@ -51,7 +51,7 @@ const Hero = () => {
                                         <li className="hero__list__item">&rarr; Compatible con la mayoría de los dispositivos actuales</li>
                                         <li className="hero__list__item">&rarr; Todo en Kaelus por menos de <span className="text--tertiary"><strong>$8 diaros</strong></span></li>
                                     </ul>
-                                    <a className="btn btn--primary" target="__blank" href="https://wa.me/+529991292603?text=Hola,%20estoy%20interesado%20en%20el%20servicio%20de%20entretenimiento">¡Quiero mi prueba gratis!</a>
+                                    <a className="btn btn--primary" target="__blank" href="https://wa.me/+529991292603?text=Hola,%20estoy%20interesado%20en%20el%20servicio%20de%20entretenimiento">🔥 ¡Quiero mi prueba gratis!</a>
 
                                     <div className="slider-controls">
                                     {backgrounds.map((_, index) => (

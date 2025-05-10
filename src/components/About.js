@@ -62,7 +62,7 @@ export default function About() {
                     <p className='text--body text-center text-white mb-5'>
                       Kaelus TV es el servicio IPTV más completo y estable del mercado. Con más de 5,000 canales en vivo (incluyendo deportes, películas, series y contenido internacional en HD), tecnología anti-buffering y soporte 24/7, ofrecemos una experiencia de televisión premium por solo <span className="text--tertiary"><strong>$250/mes</strong></span>. Compatible con cualquier dispositivo <span className="lighted--quaternary">(Smart TV, Android, iOS, Fire Stick, Roku, los principales navegadores: Chrome, Firefox, Edge y más)</span>, sin contratos largos y con actualizaciones diarias de contenido. ¡Disfruta de la televisión del futuro hoy mismo!
                     </p>
-                    <a className="btn btn--primary" target="__blank" href="https://wa.me/+529991292603?text=Hola,%20estoy%20interesado%20en%20el%20servicio%20de%20entretenimiento">Click aquí – Tu TV en HD empieza hoy</a>
+                    <a className="btn btn--primary" target="__blank" href="https://wa.me/+529991292603?text=Hola,%20estoy%20interesado%20en%20el%20servicio%20de%20entretenimiento">👉  Click aquí – Tu TV en HD empieza hoy</a>
                   </div>
                 </div>
                 <div className='headercontent'>
@@ -135,7 +135,7 @@ export default function About() {
                   </li>
                 </ul>
                 <div className='text-center'>
-                  <a className="btn btn--primary" target="__blank" href="https://wa.me/+529991292603?text=Hola,%20estoy%20interesado%20en%20el%20servicio%20de%20entretenimiento">WhatsApp Directo – Resuelve tus dudas en 1 minuto</a>
+                  <a className="btn btn--primary" target="__blank" href="https://wa.me/+529991292603?text=Hola,%20estoy%20interesado%20en%20el%20servicio%20de%20entretenimiento">💬 WhatsApp Directo – Resuelve tus dudas en 1 minuto</a>
                 </div>
               </div>
             </Fade>
