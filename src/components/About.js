@@ -60,7 +60,7 @@ export default function About() {
                 <div className="about__header">
                   <div className="about__header__content">
                     <p className='text--body text-center text-white mb-5'>
-                      Kaelus TV es el servicio IPTV más completo y estable del mercado. Con más de 5,000 canales en vivo (incluyendo deportes, películas, series y contenido internacional en HD), tecnología anti-buffering y soporte 24/7, ofrecemos una experiencia de televisión premium por solo <span className="text--tertiary"><strong>$250/mes</strong></span>. Compatible con cualquier dispositivo <span className="lighted--quaternary">(Smart TV, Android, iOS, Fire Stick, Roku, los principales navegadores: Chrome, Firefox, Edge y más)</span>, sin contratos largos y con actualizaciones diarias de contenido. ¡Disfruta de la televisión del futuro hoy mismo!
+                      Kaelus TV es el servicio IPTV más completo y estable del mercado. Con más de 1,900 canales en vivo (incluyendo deportes, películas, series y contenido internacional en HD), tecnología anti-buffering y soporte 24/7, ofrecemos una experiencia de televisión premium por solo <span className="text--tertiary"><strong>$250/mes</strong></span>. Compatible con cualquier dispositivo <span className="lighted--quaternary">(Smart TV, Android, iOS, Fire Stick, Roku, los principales navegadores: Chrome, Firefox, Edge y más)</span>, sin contratos largos y con actualizaciones diarias de contenido. ¡Disfruta de la televisión del futuro hoy mismo!
                     </p>
                     <a className="btn btn--primary" target="__blank" href="https://wa.me/+529991292603?text=Hola,%20estoy%20interesado%20en%20el%20servicio%20de%20entretenimiento">👉  Click aquí – Tu TV en HD empieza hoy</a>
                   </div>
@@ -83,7 +83,7 @@ export default function About() {
                       <div className="boxes__icon">
                         <FaTv size={45}/>
                       </div>
-                      <h4 className="text--lead boxes__title">Más de 5,000 canales</h4>
+                      <h4 className="text--lead boxes__title">Más de 1,900 canales</h4>
                     </li>
                     <li className="boxes__item">
                       <div className="boxes__icon">

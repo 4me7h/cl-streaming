@@ -1,0 +1,20 @@
+.reseller {
+    padding: 2rem 0 4rem;
+    background-color: $color-black-secondary;
+    &__header {
+        padding: 2rem 0;
+        text-align: center;
+        &__content {
+            max-width: 970px;
+            margin: 0 auto;
+        }
+    }
+    &__img {
+        width: 500px;
+        margin-bottom: 2.5rem;
+        
+        @include media('xl') {
+            margin-bottom: 0;
+        }
+    }
+}

@@ -18,6 +18,9 @@
         margin-bottom: 0.5rem;
         padding: 2rem 1rem 1rem;
         text-align: center;
+        @include media('md') {
+            width: 48.5%;
+        } 
         @include media('lg') {
             flex: 1 1 22%;
         }

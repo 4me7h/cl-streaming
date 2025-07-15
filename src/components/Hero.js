@@ -45,7 +45,7 @@ const Hero = () => {
                                     </h1>
                                     <h4 className="text--lead text--quaternary">TV en vivo, películas, series y deportes ¡Sin cortes y en HD!</h4>
                                     <ul className="hero__list">
-                                        <li className="hero__list__item">&rarr; +5,000 Canales de TV y Video on Demand siempre actualizado</li>
+                                        <li className="hero__list__item">&rarr; +1,900 Canales de TV y Video on Demand siempre actualizado</li>
                                         <li className="hero__list__item">&rarr; Deportes, Series, Películas, Documentales</li>
                                         <li className="hero__list__item">&rarr; Calidad HD estable y sin buffering</li>
                                         <li className="hero__list__item">&rarr; Compatible con la mayoría de los dispositivos actuales</li>

@@ -5,6 +5,7 @@ import About from './components/About';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Contact from './components/Contact';
+import Reseller from './components/Reseller';
 // import Services from './components/Services';
 
 // import { Element } from 'react-scroll';
@@ -19,6 +20,7 @@ function App() {
       <About />
       {/* <Schedules /> */}
       {/* <Services /> */}
+      <Reseller />
       <Contact />
       <Footer />
     </>
