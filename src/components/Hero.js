@@ -16,7 +16,15 @@ import imgBackground07 from '../images/img-17.jpg';
 
 const Hero = () => {
     const [currentSlide, setCurrentSlide] = useState(0);
-    const backgrounds = [imgBackground01, imgBackground02, imgBackground03, imgBackground04, imgBackground05, imgBackground06, imgBackground07];
+    const backgrounds = [
+        imgBackground01, 
+        imgBackground02, 
+        imgBackground03, 
+        imgBackground04, 
+        imgBackground05, 
+        imgBackground06, 
+        imgBackground07
+    ];
     // Cambia la imagen de fondo cada 5 segundos
 
     useEffect(() => {
@@ -45,8 +53,11 @@ const Hero = () => {
                                     </h1>
                                     <h4 className="text--lead text--quaternary">TV en vivo, películas, series y deportes ¡Sin cortes y en HD!</h4>
                                     <ul className="hero__list">
-                                        <li className="hero__list__item">&rarr; +1,900 Canales de TV y Video on Demand siempre actualizado</li>
-                                        <li className="hero__list__item">&rarr; Deportes, Series, Películas, Documentales</li>
+                                        <li className="hero__list__item">&rarr; <span className="text--tertiary">+1,900</span> Canales de TV y Video on Demand siempre actualizado</li>
+                                        <li className="hero__list__item">&rarr; <span className="text--tertiary">+24.000</span> Películas</li>
+                                        <li className="hero__list__item">&rarr; <span className="text--tertiary">+5.400</span> Series completas</li>
+                                        <li className="hero__list__item">&rarr; <span className="text--tertiary">+80</span> Canales Deportivos</li>
+                                        <li className="hero__list__item">&rarr; Contenido Infantil, Familiar y para todas las edades</li>
                                         <li className="hero__list__item">&rarr; Calidad HD estable y sin buffering</li>
                                         <li className="hero__list__item">&rarr; Compatible con la mayoría de los dispositivos actuales</li>
                                         <li className="hero__list__item">&rarr; Todo en Kaelus por menos de <span className="text--tertiary"><strong>$8 diaros</strong></span></li>
