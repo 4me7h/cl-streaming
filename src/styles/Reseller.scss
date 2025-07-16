@@ -17,4 +17,15 @@
             margin-bottom: 0;
         }
     }
+    &__content {
+        margin: 0 auto 1rem;
+        text-align: center;
+        @include media('md') {
+            margin-bottom: 1.5rem;
+        }
+        @include media('lg') {
+            text-align: left;
+        }
+        
+    }
 }

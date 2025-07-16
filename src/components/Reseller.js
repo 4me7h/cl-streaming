@@ -12,7 +12,7 @@ const Reseller = () => {
                 <Row>
                     <Col md={12}>
                         <div className="reseller__header">
-                            <h2 className="text--subtitle text--white">Conviértete en un Revendedor</h2>
+                            <h2 className="text--subtitle text--white text-uppercase">Conviértete en un Revendedor</h2>
                             <h4 className="text--lead text--quaternary">
                                 Únete a nuestro programa de revendedores y comienza a ganar dinero hoy mismo.
                             </h4>
@@ -24,15 +24,18 @@ const Reseller = () => {
                         </div>
                     </Col>
                     <Col sm={12} lg={7}>
-                        <p className="text--body text-white">
-                            Contamos con un sistema fácil de usar para gestionar tus ventas y comisiones. Además, ofrecemos soporte continuo para ayudarte a tener éxito.
-                        </p>
-                        <p className="text--body text-white">
-                            Al convertirte en revendedor, tendrás la oportunidad de ofrecer nuestros servicios a tus clientes, ganar comisiones y disfrutar de beneficios exclusivos.
-                        </p>
-                        <p className='text--body text-white'>
-                            Como revendedor oficial de Kealus TV, tendrás acceso a una plataforma intuitiva para gestionar tus suscripciones y comisiones, además de soporte dedicado para resolver cualquier duda. Podrás ofrecer uno de los servicios de streaming más competitivos del mercado, con contenido exclusivo y alta demanda, generando ingresos recurrentes mientras tus clientes disfrutan de entretenimiento ilimitado.
-                        </p>
+                        <div className="reseller__content">
+                            <p className="text--body text-white">
+                                Contamos con un sistema fácil de usar para gestionar tus ventas y comisiones. Además, ofrecemos soporte continuo para ayudarte a tener éxito.
+                            </p>
+                            <p className="text--body text-white">
+                                Al convertirte en revendedor, tendrás la oportunidad de ofrecer nuestros servicios a tus clientes, ganar comisiones y disfrutar de beneficios exclusivos.
+                            </p>
+                            <p className='text--body text-white mb-5'>
+                                Como revendedor oficial de Kealus TV, tendrás acceso a una plataforma intuitiva para gestionar tus suscripciones y comisiones, además de soporte dedicado para resolver cualquier duda. Podrás ofrecer uno de los servicios de streaming más competitivos del mercado, con contenido exclusivo y alta demanda, generando ingresos recurrentes mientras tus clientes disfrutan de entretenimiento ilimitado.
+                            </p>
+                            <a className="btn btn--primary" target="__blank" href="https://wa.me/+529991292603?text=Hola,%20estoy%20interesado%20en%20ser%20relleser%20de%20Kaelus">🔥 Quiero ser Reseller</a>
+                        </div>
                     </Col>
                 </Row>
             </Container>
