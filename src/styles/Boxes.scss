@@ -14,7 +14,7 @@
         border-radius: 15px;
         border: 3px solid $color-quaternary;
         overflow: hidden;
-        width: 49%;
+        width: 48%;
         margin-bottom: 0.5rem;
         padding: 2rem 1rem 1rem;
         text-align: center;
@@ -55,10 +55,10 @@
     }
     &__title {
         color: $color-white;
-        font-size: $fs-md;
+        font-size: $fs-sm;
         font-weight: $fw-5;
         margin-bottom: 1rem;
-        @include media('md') {
+        @include media('sm') {
             font-size: $fs-md;
         }
     }
