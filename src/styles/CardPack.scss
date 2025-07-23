@@ -11,9 +11,9 @@
         .cardpack__text--mesesmegas {
             color: $color-tertiary;
         }
-        .btn--primary {
-            background-color: $color-tertiary;
-        }
+        // .btn--primary {
+        //     background-color: $color-tertiary;
+        // }
     }
     &__content {
         padding: 4rem 0 4rem;
@@ -33,18 +33,21 @@
         &--description {
             display: block;
             margin-bottom: 0;
+            color: $color-white;
+            font-size: $fs-md;
         }
         &--megas {
             display: block;
             font-size: $fs-bg;
             margin-bottom: 0;
             line-height: 1;
+            color: $color-white;
         }
         &--mesesmegas {
             display: block;
-            color: $color-primary;
             margin-bottom: 2.5rem;
             font-size: $fs-md;
+            color: $color-tertiary;
         }
         &--view {
             display: block;
@@ -56,29 +59,33 @@
             letter-spacing: 0.1rem;
             margin-bottom: 1.5rem;
             font-size: $fs-mn;
+            color: $color-quaternary;
         }
         &--apptv {
             display: block;
             text-transform: uppercase;
             font-size: $fs-mn;
             margin-bottom: 1.5rem;
-            color: $color-primary;
+            color: $color-white;
             font-weight: $fw-5;
         }
         &--precio {
             display: block;
             font-size: $fs-bg;
             line-height: 1;
-            font-weight: $fw-6;
+            font-weight: $fw-5;
+            color: $color-tertiary;
         }
         &--preciomes {
             display: inline-block;
             font-size: $fs-sm;
+            color: $color-tertiary;
         }
         &--mesesprecio {
             display: block;
             font-size: $fs-md;
             margin-bottom: 2rem;
+            color: $color-tertiary;
         }
     }
     &__list-img {

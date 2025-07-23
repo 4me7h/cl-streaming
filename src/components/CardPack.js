@@ -40,7 +40,7 @@ const CardPack = ({description, megas, mesesmegas, telfija, precio, mesesprecio,
                     {mesesprecio} 
                 </span>
                 <span class="cardpack__text cardpack__text--button">
-                    <a className="btn btn--primary" target="__blank" href="https://wa.me/5219617044610/?text=Podría%20darme%20más%20información%20sobre%20los%20paquetes%20de%20megacable%20internet">Contrata Ahora</a>
+                    <a className="btn btn--primary" target="__blank" href="https://wa.me/+529991292603?text=Hola,%20estoy%20interesado%20en%20un%20plan%20de%20Kaelus">Contrata Ahora</a>
                 </span>
             </div>
         </div>       

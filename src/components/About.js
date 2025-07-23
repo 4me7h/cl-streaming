@@ -12,6 +12,8 @@ import partners03 from '../images/logo-android.png';
 import partners04 from '../images/logo-firetv.png';
 import partners05 from '../images/logo-chrome.png';
 
+import Products from './Products';
+
 
 const imagePaths = [  
   require('../images/img-02.jpg'),
@@ -103,7 +105,7 @@ export default function About() {
           </Col>
         </Row>
       </Container>
-
+      <Products />
       <Container>
         <Row>
           <Col>
