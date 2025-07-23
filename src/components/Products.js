@@ -118,7 +118,7 @@ export default function Products() {
                         mesesmegas={"Ahorro óptimo"}
                         telfija={"Hasta 3 dispositivos por cuenta"}
                         textapptv={["Con nuestros planes podrás disfrutar del contenido de tus plataformas favoritas en una misma al mejor precio." ]}
-                        precio={"$600"}
+                        precio={"$675"}
                         mesesprecio={"trimestral"}
                       />
                     </li>
@@ -129,7 +129,7 @@ export default function Products() {
                         mesesmegas={"Ahorro óptimo"}
                         telfija={"Hasta 3 dispositivos por cuenta"}
                         textapptv={["Con nuestros planes podrás disfrutar del contenido de tus plataformas favoritas en una misma al mejor precio." ]}
-                        precio={"$1,050"}
+                        precio={"$1,200"}
                         mesesprecio={"semestral"}
                       />
                     </li>
@@ -140,7 +140,7 @@ export default function Products() {
                         mesesmegas={"Ahorro óptimo"}
                         telfija={"Hasta 3 dispositivos por cuenta"}
                         textapptv={["Con nuestros planes podrás disfrutar del contenido de tus plataformas favoritas en una misma al mejor precio." ]}
-                        precio={"$2,000"}
+                        precio={"$2,160"}
                         mesesprecio={"anual"}
                       />
                     </li>
